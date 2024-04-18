@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.image{
+    height: 80px;
+    width:70px;
+    border-radius: 50%;
+}
+.nav-text{
+    font-size: 20px;
+    font-family:"roboto";
+    font-weight: bold;
+    font-style: italic;
+    gap:60px;
+    color:white;
+}
+.head{
+    font-family: "roboto";
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    font-size: 40px;
+}
+.par{
+    font-size: 30px;
+    font-family: "lobster";
+    font-style: normal;
+    font-weight: bold;
+    color:white;
+}
+.but{
+    border-radius: 30px;
+    height: 30px;
+    width:90px;
+    border-style: solid;
+    background-color: transparent;
+}
+.profile{
+    height:150px;
+    height:400px;
+    padding: 10px;
+    filter:grayscale(100%);
+   
+}
+.profile:hover{
+    filter:grayscale(0%);
+}
+.top-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: middle;
+}
+
+.type{
+    list-style-type: disc;
+    color: white;
+    font-size: 20px;
+}
+.top-section{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+}
+.middlesection{
+    background-color: black;
+}
+.head-about{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-family: "lobster";
+    text-decoration: underline;
+}
+.par-about{
+    text-align: center;
+    color: white;
+    font-family: "lobster";
+    font-size: 30px;
+
+}
+.man{
+    margin:10px;
+    height:50px;
+    width:40px;
+    border-radius: 50%;
+}
+.pam{
+    color: white;
+    margin: 3px;
+}
+.img2{
+    margin:10px;
+    height:70px;
+    width:40px;
+
+}
+.icon-section{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.code{
+    height: 80px;
+    width: 40px;
+}
+.merge-section{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+}
+.skills{
+    background-color: black;
+    
+}
+.ski{
+    color:white;
+    list-style-type: disc;
+}
+.form-container{
+    background-color: black;
+    text-align: center;
+}
+.color{
+    color:green;
+}
+.form-container{
+    background-image: url(https://img.freepik.com/free-vector/desert-landscape-with-dunes-cacti_52683-24167.jpg?t=st=1711016770~exp=1711020370~hmac=77c2df21b6d620930f1464cc56a051a8a42349c4a477d3ca6c717a2e6ac786c3&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100vw;
+}

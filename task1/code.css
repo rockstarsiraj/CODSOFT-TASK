@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.navbar-image{
+    height:80px;
+    width:75px;
+    background: transparent;
+    
+}
+.nav-title{
+    font-family: "lobster";
+    font-weight: bold;
+    font-style: italic;
+    filter:contrast(5px);
+    color:black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:90px;
+    
+}
+.nav-title:hover{
+    filter: contrast(0px);
+}
+.bg-container{
+    background-image:url("https://wallpapercave.com/uwp/uwp4273822.jpeg");
+    background-size: cover;
+    height: 110vh;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+
+}
+.bg-container:hover{
+    filter: grayscale(0%);
+}
+.head{
+    color:#d6a00b;
+    text-align: center;
+    font-size: 35px;
+    font-family: "monoton";
+    text-decoration: underline;
+    font-weight: bold;
+   
+}
+.par{
+    color:white;
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: bold;
+    font-style: normal;
+}
+.but{
+    border-radius: 20px;
+    padding-right: 20px;
+    margin:20px;
+}
+.bg-head{
+    text-align: center;
+    font-family: "lobster";
+    text-decoration: underline;
+    color: rgb(145, 113, 175);
+}
+.bg-image{
+    height: 250px;
+    width: 200px;
+    background-repeat: no-repeat;
+   border-radius: 16px;
+   margin: 5px;
+   border-style: solid;
+   padding: 5px;
+}
+.bg-imaagee{
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 10px;
+    border-style: solid;
+    padding: 5px;
+}
